@@ -1,0 +1,122 @@
+body { background: #FEC8D7; 
+       color: #882E6F;
+       font-family: Arial, Helvetica, sans-serif;
+}
+header { background-position: right ;
+         background-repeat: no-repeat;
+         height: 60px;
+         padding-top: 15px;
+         margin-bottom: 0;
+         text-align: center;
+         background-color: #A53855; 
+}
+h1 { color: #FFFFFF;
+     font-family: Georgia, Times New Roman, serif;
+     margin-top: 0;
+}
+h2 { color: #A53855; 
+     font-family: Georgia, Times New Roman, serif;
+     text-shadow: 1px 1px 1px #CCCCCC;
+}
+h3 { color: #000033;
+     font-family: Georgia, Times New Roman, serif;
+}
+main { padding: 1px 20px 20px 20px;
+       background-color: #FFFFFF;
+       margin-right: 190px;
+       padding-right: 30px;
+}
+nav { font-weight: bold;
+      padding: 20px;
+      float: right;
+      width: 160px;
+}
+nav a { text-decoration: none; }
+nav a:link { color: #A53855; }
+nav a:visited { color: #B6593E; }
+nav a:hover { color: #FFFFFF; }
+nav ul { margin: 0;
+         padding-left: 0;
+         font-size: 1.2em;
+         list-style-type: none;
+}
+footer { font-size: 75%;
+         font-style: italic;
+         text-align: center;
+         font-family: Georgia, Times New Roman, serif;
+         padding: 20px;
+         margin-right: 190px;
+         background-color: #FFFFFF;
+}
+td, th { padding: 5px;
+         border: 1px #3399CC solid;
+}
+td { text-align: center; }
+.text { text-align: left; }
+tr:nth-of-type (odd) { background-color: #F5FAFC; }
+label { float: left;
+        display: block;
+        text-align: right;
+        width: 120px;
+        padding-right: 10px;
+}
+input, textarea { display: block;
+                  margin-bottom: 20px;
+}
+input[type="submit"] { margin-left: 130px; }
+
+body {
+  font-family: Helvetica, sans-serif;
+  padding: 5%;
+  text-align: center;
+}
+
+#slideshow {
+  overflow: hidden;
+  height: 510px;
+  width: 728px;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 2912px;
+  -webkit-animation: slide 18s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+
+.slide:nth-child(1) {
+  background: #000000;
+}
+
+.slide:nth-child(2) {
+  background: #000000;
+}
+
+.slide:nth-child(3) {
+  background: #000000;
+}
+
+.slide:nth-child(4) {
+  background: #000000;
+}
+
+.slide-number {
+  color: #000;
+  text-align: center;
+  font-size: 10em;
+}
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -728px;}
+  50% {margin-left: -728px;}
+  60% {margin-left: -1456px;}
+  70% {margin-left: -1456px;}
+  80% {margin-left: -2184px;}
+  90% {margin-left: -2184px;}
+}
